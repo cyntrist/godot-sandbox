@@ -14,7 +14,7 @@ var current_scene = Scenes.SPLASH
 var next_scene = Scenes.SPLASH
 var stage = 0
 
-var coolDown = 2
+var coolDown = 0.5
 var startCoolDown = false
 
 func _ready() -> void:
@@ -26,7 +26,7 @@ func  _process(delta: float) -> void:
 	if startCoolDown:
 		if coolDown <= 0:
 			startCoolDown = false
-			coolDown = 1
+			coolDown = 0.5
 		else:
 			coolDown-= delta
 

@@ -1,6 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://b6qn383g7pwxp"]
-
-[ext_resource type="Script" uid="uid://cp306wps2uf73" path="res://scripts/flujo/Splash.gd" id="1_bdoy2"]
+[gd_scene format=3 uid="uid://b6qn383g7pwxp"]
 
 [node name="Null" type="Control"]
 layout_mode = 3
@@ -11,7 +9,6 @@ anchor_right = 0.5
 anchor_bottom = 0.5
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_bdoy2")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 0
